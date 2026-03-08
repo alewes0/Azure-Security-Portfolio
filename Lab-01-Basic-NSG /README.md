@@ -1,4 +1,4 @@
-# Labb 1: Webbserver och första steget med Inbound Rules 🛡️
+# Labb 1: Webbserver och första steget med Inbound Rules 
 
 I den här labben ville jag testa grunderna i hur man får en maskin att prata med internet. Huvudmålet var att starta upp en VM och installera en webbserver som man faktiskt kan nå utifrån via den publika IP-adressen.
 
