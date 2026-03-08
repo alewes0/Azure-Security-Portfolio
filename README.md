@@ -1,5 +1,4 @@
 # AZ-500-Azure-Security-Labs
-# AZ-500: Mitt Azure Security Portfolio
 
 Här dokumenterar jag 20 labbar genomförda under min resa mot AZ-500 certifieringen.
 
