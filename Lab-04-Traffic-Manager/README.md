@@ -2,19 +2,15 @@
 
 I den här labben utforskade jag **Azure Traffic Manager**, som fungerar som en DNS-baserad load balancer. Det är en tjänst som låter mig dirigera trafik till mina applikationer så att de alltid är tillgängliga, även om en server skulle gå ner.
 
+###  Steg 1: Infrastruktur och Säkerhet
 
+* **Satte upp två servrar:** Jag skapade två virtuella maskiner med **Windows Server 2025** i två olika resursgrupper.
+* **Tänkte på säkerhet och åtkomst:** Jag öppnade port **3389 (RDP)** för hantering och port **80 (HTTP)** för webbtrafik i deras Network Security Groups (NSG).
+* **Zon-indelning (Availability Zones):** För att säkra driften placerade jag maskinerna i olika fysiska zoner (**VM1** utan specifik zon och **VM2** i **Zon 3**). Detta ger en fysisk separation om ett datacenter skulle få strömavbrott.
 
-### Vad jag gjorde:
+###  Steg 2: Automatisering med PowerShell
 
-* **Satte upp två servrar:** Jag skapade två virtuella maskiner med **Windows Server 2025**. För att göra det ordentligt lade jag dem i två helt olika Resource Groups.
-* **Tänkte på säkerhet och åtkomst:** Jag öppnade port **3389 (RDP)** för att kunna styra maskinerna, men också port **80 (HTTP)** så att webbtrafiken kunde komma fram.
-* **Zon-indelning (Availability Zones):** Här tänkte jag på redundans. 
-  * **VM1:** Ingen specifik zon.
-  * **VM2:** Placerades i **Zon 3**. 
-  Detta gjorde jag för att ha en fysisk separation mellan maskinerna. Om ett datacenter får problem ska den andra servern fortfarande rulla!
-
-### Automatisering med PowerShell
-Istället för att klicka runt i menyer inne i Windows, använde jag **PowerShell** för att snabbt installera webbservern (IIS) och fixa en enkel hemsida:
+Istället för att klicka i menyer använde jag **PowerShell** för att installera webbservern (IIS) och skapa en unik startsida för varje maskin:
 
 ```powershell
 # Installera IIS
@@ -25,3 +21,18 @@ remove-item C:\inetpub\wwwroot\iisstart.htm
 
 # Skapa en ny sida som visar vilken server vi är på
 Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World från min " + $env:computername)
+```
+### Steg 3: DNS och Traffic Manager-setup
+För att Traffic Manager ska fungera behövde maskinerna vara nåbara via namn. Jag gjorde följande:
+
+Konfigurerade unika DNS-namn för båda servrarna under deras publika IP-inställningar.
+
+Skapade en Traffic Manager-profil och lade till två endpoints (VM1 och VM2).
+
+Traffic Manager övervakar nu servrarnas hälsa och dirigerar automatiskt användare till den server som är tillgänglig.
+
+### Resultat & Reflektion
+När allt var klart använde jag URL:en från min Traffic Manager-profil. Genom att surfa in på samma länk såg jag att jag dirigerades mellan de olika servrarna. Det bevisade att lastbalanseringen fungerade!
+
+### Reflektion: 
+Att förstå hur man sprider ut resurser i olika zoner och använder en DNS-lastbalanserare är en viktig del av AZ-500. Det handlar om att bygga system som tål fel och alltid är tillgängliga för användaren.
