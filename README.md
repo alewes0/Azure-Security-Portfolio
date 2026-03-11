@@ -8,3 +8,4 @@ Här kommer jag dokumentera min labbar jag gör kommande månad för att bygga p
 | 03 | Service Endpoints | Data Protection |  Klar | [Visa Labb](./Lab-03-Service-Endpoints/) |
 | 04 | Traffic Manager | High Availability |  Klar | [Visa Labb](./Lab-04-Traffic-Manager/) |
 | 05 | ARM & Private Link | Infrastructure as Code |  Klar | [Visa Labb](./Lab-05-ARM-Private-Endpoint/) |
+| 06 | Private Link Service | Network Security |  Klar | [Visa Labb](./06-private-link-service/) |
