@@ -1,4 +1,4 @@
-Här kommer jag dokumentera min labbar jag gör kommande månad för att bygga på mina kunskaper inom Azure Plattformen, Skriver lite kortfattad vad jag utförde och lite tankar.
+Här kommer jag dokumentera min labbar jag gör kommande månad för att bygga på mina kunskaper inom Azure Plattformen, Skriver lite kortfattad vad jag utförde och lite tankar. Jag väljer att publicera de här för min egen utveckling men även om någon blir inspirerad att testa, Jag kommer inte gå in på detalj exakt hur jag gjorde varje steg men kommer berätta lite övergripande om labben och vad jag tog med mig från den. Det var intensivt men kul projekt att testa många olika tekniker och tjänster. detta är min första read me kan du göra den mer github vänlig
 
 
 | Labb | Ämne | Fokusområde | Status | Länk |
