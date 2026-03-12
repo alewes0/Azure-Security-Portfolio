@@ -33,6 +33,7 @@ Traffic Manager övervakar nu servrarnas hälsa och dirigerar automatiskt använ
 
 ### Resultat & Reflektion
 När allt var klart använde jag URL:en från min Traffic Manager-profil. Genom att surfa in på samma länk såg jag att jag dirigerades mellan de olika servrarna. Det bevisade att lastbalanseringen fungerade!
+![image051_13_08](https://github.com/user-attachments/assets/01ef784b-67c6-4e0d-baed-e4fb28a665c9)
 
 ### Reflektion: 
 Att förstå hur man sprider ut resurser i olika zoner och använder en DNS-lastbalanserare är en viktig del av AZ-500. Det handlar om att bygga system som tål fel och alltid är tillgängliga för användaren.
