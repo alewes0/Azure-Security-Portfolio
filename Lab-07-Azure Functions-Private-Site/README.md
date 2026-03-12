@@ -25,12 +25,14 @@ Azure Functions är en serverlös tjänst (Serverless computing) som kör event-
 Jag började med att bygga upp miljön:
 * En **Windows VM** som agerar klient.
 * Ett **Virtual Network (VNet)** med två subnät: ett för Azure Bastion och ett för mina Azure Functions.
-* När nätverket var klart ändrade jag åtkomstbehörigheterna för min Function App så att **endast** trafik från mitt utvalda VNet och specifika IP-adresser tilläts.
+* När nätverket var klart ändrade jag åtkomstbehörigheterna för min Function App så att **endast** trafik från mitt utvalda VNet och specifika IP-adresser tilläts.<img width="1907" height="987" alt="Screenshot 2026-03-12 100551" src="https://github.com/user-attachments/assets/282fe181-c2b6-440f-b06e-32fa6b01e9f1" />
+
 
 #### 2. Utveckling i .NET 10
 I **Visual Studio Code** skapade jag ett nytt projekt baserat på **.NET 10** med en **HTTP-trigger**.
 * Jag körde en lokal debugging-process för att verifiera koden.
 * Därefter kopplade jag mitt Azure-konto till VS Code och deployade projektet direkt till min Function App i molnet.
+<img width="1454" height="994" alt="Screenshot 2026-03-12 102000" src="https://github.com/user-attachments/assets/330ea6b5-cb08-42b3-8a26-4864346b659f" />
 
 ---
 
@@ -39,6 +41,7 @@ I **Visual Studio Code** skapade jag ett nytt projekt baserat på **.NET 10** me
 Här såg jag tydligt att säkerheten fungerade:
 1. **Publik åtkomst (Utifrån):** När jag försökte nå URL:en via min vanliga webbläsare fick jag **Error 403 - Forbidden**. Detta bevisade att muren var uppe och att ingen obehörig kan nå koden via internet.
 2. **Privat åtkomst (Inifrån):** Jag anslöt till min VM via **Azure Bastion**. När jag där inne klistrade in samma URL tillsammans med min *Master Key*, fick jag direkt upp meddelandet: **"Welcome to Azure Functions"**.
+<img width="1918" height="857" alt="Screenshot 2026-03-12 101939" src="https://github.com/user-attachments/assets/db900107-accb-4cc2-85af-ff116cb6f53f" />
 
 ###  Reflektion
 Detta var en intensiv labb som knöt ihop säcken mellan nätverkssäkerhet och modern mjukvaruutveckling. Att använda .NET 10 i en serverlös miljö som är helt låst bakom ett VNet är ett klockrent exempel på hur man bygger säkra företagslösningar i molnet idag.
