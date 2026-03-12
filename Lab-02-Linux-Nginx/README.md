@@ -17,5 +17,5 @@ Eftersom jag nu visste hur man satte upp och nådde en Linux-webbserver så tog 
 
 ---
 
-### 💡 Min tanke efteråt
+###  Min tanke efteråt
 Det var kul att testa Linux den här gången. Det kändes lite mer "under huven" när man fick sitta i terminalen och navigera med kommandon som `cd` och ändra filer direkt i Nano. Att CMD strulade var faktiskt bra, för nu vet jag hur man använder PuTTY som backup för att komma in i sina servrar!
