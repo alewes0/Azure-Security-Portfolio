@@ -31,6 +31,7 @@ Efter att resurserna skapats anslöt jag till den virtuella maskinen via **RDP (
 #### 3. Verifiering av anslutningen
 Genom att använda inloggningsuppgifterna som definierades i ARM-templatet loggade jag in på SQL-databasen via SSMS. 
 * **Resultat:** Jag kunde verifiera att jag nådde databasen via dess **Private Link connection**. All trafik skedde internt i nätverket, helt skyddat från omvärlden.
+<img width="582" height="210" alt="20_32_33" src="https://github.com/user-attachments/assets/38a267b7-8dfc-42c4-98c4-0b7f554cfdce" />
 
 ---
 
