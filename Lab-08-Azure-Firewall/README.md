@@ -56,4 +56,4 @@ Efter att ha anslutit till min VM testade jag brandväggens filter i praktiken:
 ---
 
 ###  Reflektion
-Den här labben visade styrkan i att flytta säkerheten till en centraliserad brandvägg. Att kunna styra trafik baserat på domännamn istället för bara IP-adresser gör hanteringen både säkrare och enklare att skala upp i takt med att infrastrukturen växer.
+Den här labben visade skillnaden i att flytta säkerheten till en centraliserad brandvägg. Att kunna styra trafik baserat på domännamn istället för bara IP-adresser gör hanteringen både säkrare och enklare att skala upp i takt med att infrastrukturen växer.
