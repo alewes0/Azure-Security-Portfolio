@@ -1,11 +1,11 @@
-# Labb 08: Azure Firewall – Den Intelligenta Ordningsvakten 
+# Labb 08: Azure Firewall  
 
 I den här labben har jag implementerat **Azure Firewall** för att centralisera nätverkssäkerheten. Målet var att skapa en miljö där all trafik ut mot internet kontrolleras strikt genom policies, istället för att bara lita på enkla nätverksregler.
 
-> **Snabbfakta:**
-> * **Mål:** Begränsa internetåtkomst till specifika domäner (FQDN).
-> * **Huvudteknik:** Azure Firewall (Basic SKU), Firewall Policy, Route Tables (UDR).
-> * **Resultat:** En "Default Deny"-miljö där endast godkända sidor går att nå.
+ **Snabbfakta:**
+ * **Mål:** Begränsa internetåtkomst till specifika domäner (FQDN).
+ * **Huvudteknik:** Azure Firewall (Basic SKU), Firewall Policy, Route Tables (UDR).
+ * **Resultat:** En "Default Deny"-miljö där endast godkända sidor går att nå.
 
 ---
 
