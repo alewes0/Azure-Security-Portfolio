@@ -48,10 +48,10 @@ För att tvinga trafiken genom brandväggen skapade jag en **Route Table**. Jag 
 Efter att ha anslutit till min VM testade jag brandväggens filter i praktiken:
 
 1. **Google.com (Tillåten):** Fungerade klockrent eftersom domänen fanns i min "Allow-list".
-![Google Access Allowed](google.png)
+![Google Access Allowed](Google.png)
 
 2. **Microsoft.com (Blockerad):** Blockerades omedelbart. Eftersom brandväggen nekar allt som inte är tillåtet (**Implicit Deny**), kommer man inte åt några andra sidor.
-![Microsoft Access Blocked](microsoft.png)
+![Microsoft Access Blocked](Microsoft.png)
 
 ---
 
