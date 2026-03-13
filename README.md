@@ -10,3 +10,4 @@ Här kommer jag dokumentera min labbar jag gör kommande månad för att bygga p
 | 05 | ARM & Private Link | Infrastructure as Code |  Klar | [Visa Labb](./Lab-05-ARM-Private-Endpoint/) |
 | 06 | Private Link Service | Network Security |  Klar | [Visa Labb](./06-private-link-service/) |
 | 07 | Functions & Bastion | Serverless Security |  Klar | [Visa Labb](https://github.com/alewes0/AZ-500-Azure-Security-Labs/tree/f957ef718cd360a3b2d7494effa22f40f2677b96/Lab-07-Azure%20Functions-Private-Site) |
+| 08 | Azure Firewall | Network Security & Routing |  Klar | [Visa Labb](./Lab-08-Azure-Firewall/) |
