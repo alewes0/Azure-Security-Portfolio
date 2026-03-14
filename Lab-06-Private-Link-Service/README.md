@@ -2,11 +2,6 @@
 
 I den här labben har jag byggt en avancerad nätverkslösning för att simulera hur man säkert delar tjänster mellan olika nätverk eller organisationer utan att någonsin exponera trafiken mot det publika internet.
 
-###  Verktyg & Teknik
-![Load Balancer](https://img.shields.io/badge/Azure_Load_Balancer-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Private Link](https://img.shields.io/badge/Private_Link-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![VNet](https://img.shields.io/badge/Virtual_Network-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
 ---
 
 ###  Centrala Koncept
@@ -44,4 +39,4 @@ Genom att bygga denna arkitektur har jag skapat en lösning där ett företag ka
 2.  **Enkelhet:** Vi slipper krångliga VPN-anslutningar eller komplex routing.
 3.  **Säkerhet:** Attackytan minimeras till en enda privat IP-adress.
 
-> **Säkerhetsinsikt:** Att kunna erbjuda en tjänst via Private Link är "guldstandarden" inom Azure-säkerhet. Det visar att man prioriterar dataintegritet och nätverksisolering högst.
+
