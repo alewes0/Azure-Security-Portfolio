@@ -44,6 +44,7 @@ Applikationen lyckades hämta hemligheterna och AI-tjänsten analyserade texten 
 * **Last week** identifierades som **DateTime** (Confidence: 1.00).
 * **Trip** identifierades som **Event** (Confidence: 0.76).
 
+![Analysresultat i terminalen](Result)
 
 
 
