@@ -8,12 +8,9 @@ I den här labben gjorde jag ungefär samma sak som i första labben, men med en
 * **Problem med SSH:** Planen var att använda min vanliga CMD för att SSH:a mig in i maskinen, men det ville sig inte. För att lösa det använde jag **PuTTY** istället, vilket funkade direkt så att jag kunde börja jobba i terminalen.
 * **Installationen:** Väl inne i Ubuntu-maskinen installerade jag Nginx. För att ändra på hemsidan var jag tvungen att navigera till rätt mapp:  
   `cd /var/www/html`
-* **Redigering i Nano:** Jag använde texteditorn **Nano** för att gå in och ändra i filerna så att det blev min egen sida. Det var lite annorlunda mot att klicka runt i Windows, men väldigt lärorikt.
+* **Redigering i Nano:** Jag använde texteditorn **Nano** för att gå in och ändra i filerna så att det blev min egen sida. 
 * **Öppnade för trafik:** Precis som förra gången var jag tvungen att gå in i Azure och fixa en **Inbound Port Rule**. Jag öppnade **port 80** så att webbtrafik kunde komma fram till maskinen.
 * **Slutkollen:** När regeln var på plats skrev jag in maskinens publika IP-adress i webbläsaren och då dök min Nginx-server upp precis som den skulle!
-
-### Cleanup
-Eftersom jag nu visste hur man satte upp och nådde en Linux-webbserver så tog jag bort alla resurser för att inte låta dem ligga och dra onödiga pengar.
 
 ---
 
