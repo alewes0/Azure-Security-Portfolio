@@ -42,6 +42,8 @@ Körde samma kommando från min vanliga dator hemma.
 * **Resultat:** `Connection Timed Out`.
 * **Analys:** Perfekt! Detta bevisar att brandväggen och Private Link gör sitt jobb – databasen existerar inte för det publika internet.
 
+![Verifiering av anslutning via Private Endpoint](Result.png)
+
 
 
 ---
