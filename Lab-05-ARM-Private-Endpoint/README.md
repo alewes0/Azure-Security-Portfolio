@@ -38,4 +38,4 @@ Genom att använda inloggningsuppgifterna som definierades i ARM-templatet logga
 ###  Reflektion
 Att använda ARM-templates för att sätta upp komplexa nätverkslösningar som Private Endpoints är en "best practice" inom Azure Security. Det säkerställer att säkerhetsinställningarna (som att stänga av publik åtkomst) alltid blir rätt utförda varje gång man bygger miljön.
 
-> **Säkerhetsinsikt:** Private Link är en av de viktigaste tjänsterna i AZ-500 för att skydda känslig data i SQL-databaser och Storage Accounts.
+
