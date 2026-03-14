@@ -1,6 +1,6 @@
 # Azure Security Labbar
 
-Välkommen till mitt labbarkiv! Under den senaste månaden har jag genomfört en intensiv resa för att djupdyka i **Azure-plattformens säkerhetsarkitektur**. Här dokumenterar jag mina praktiska labbar med fokus på nätverksisolering, identitetshantering och dataskydd.
+Välkommen till mitt labbarkiv! Under den senaste månaden har jag genomfört en resa för att djupdyka i **Azure-plattformens säkerhetsarkitektur**. Här dokumenterar jag mina praktiska labbar med fokus på nätverksisolering, identitetshantering och dataskydd.
 
 > **Mål:** Att bygga en djup teknisk förståelse för hur man säkrar molnbaserad infrastruktur enligt "Zero Trust"-principen. Jag beskriver varje labb övergripande med fokus på arkitektur och säkerhetstänk snarare än steg-för-steg-instruktioner.
 
