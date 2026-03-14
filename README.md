@@ -14,3 +14,4 @@ Här kommer jag dokumentera min labbar jag gör kommande månad för att bygga p
 | 09 | Service Endpoints | Storage Security |  Klar | [Visa Labb](./Lab-09-Storage-PrivateEndpoint/) |
 | 10 | Azure SQL Security | Database & Compliance |  Klar | [Visa Labb](./Lab-10-Azure-SQL-Database/) |
 | 11 | Azure Key Vault & AI | Application Security & Secret Management |  Klar | [Visa Labb](./Lab-11-Key-Vault-AI/) |
+| 12 | Cosmos DB & Private Link | Advanced Network Isolation |  Klar | [Visa Labb](./Lab-12-Cosmos-Private-Link/) |
