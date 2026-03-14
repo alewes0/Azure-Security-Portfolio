@@ -38,7 +38,7 @@ Jag skapade en central policy med följande regler:
 * **Network Rules:** Tillät DNS-trafik (UDP 53) så att servern kan hitta hemsidor.
 * **DNAT Rules:** Gjorde det möjligt att ansluta säkert till servern via brandväggens publika IP (Port forwarding).
 
-#### 3. Route Table (UDR) 🗺️
+#### 3. Route Table (UDR) 
 För att tvinga trafiken genom brandväggen skapade jag en **Route Table**. Jag ställde in en route för `0.0.0.0/0` (all trafik) med brandväggens privata IP som **Next hop**.
 
 ---
