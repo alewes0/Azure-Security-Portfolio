@@ -1,6 +1,6 @@
-# Azure Security Roadmap: AZ-500 
+# Azure Security Labbar
 
-Välkommen till mitt projektarkiv! Under den senaste månaden har jag genomfört en intensiv resa för att djupdyka i **Azure-plattformens säkerhetsarkitektur**. Här dokumenterar jag mina praktiska labbar med fokus på nätverksisolering, identitetshantering och dataskydd.
+Välkommen till mitt labbarkiv! Under den senaste månaden har jag genomfört en intensiv resa för att djupdyka i **Azure-plattformens säkerhetsarkitektur**. Här dokumenterar jag mina praktiska labbar med fokus på nätverksisolering, identitetshantering och dataskydd.
 
 > **Mål:** Att bygga en djup teknisk förståelse för hur man säkrar molnbaserad infrastruktur enligt "Zero Trust"-principen. Jag beskriver varje labb övergripande med fokus på arkitektur och säkerhetstänk snarare än steg-för-steg-instruktioner.
 
@@ -33,5 +33,9 @@ Välkommen till mitt projektarkiv! Under den senaste månaden har jag genomfört
 ---
 
 ##  Kontakt & Info
+---
+
+## 📬 Kontakt & Info
 * **Certifiering:** AZ-500 (Under utbildning 2026)
-* **LinkedIn:** https://www.linkedin.com/in/alexander-westberg00/
+* **LinkedIn:** [Alexander Westberg](https://www.linkedin.com/in/alexander-westberg00/)
+* **Källor:** Praktiska scenarier inspirerade av och baserade på Whizlabs AZ-500 utbildningsmaterial.
