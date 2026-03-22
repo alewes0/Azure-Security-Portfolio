@@ -31,10 +31,6 @@ Välkommen till mitt labbarkiv! Under den senaste månaden har jag genomfört en
 * **Nätverksisolering:** Att flytta resurser från det publika internet till privata endpoints via Private Link är det enskilt mest effektiva sättet att minska attackytan.
 
 ---
-
-##  Kontakt & Info
----
-
 ## 📬 Kontakt & Info
 * **Certifiering:** AZ-500 (Under utbildning 2026)
 * **LinkedIn:** [Alexander Westberg](https://www.linkedin.com/in/alexander-westberg00/)
