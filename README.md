@@ -25,7 +25,7 @@ Välkommen till mitt labbarkiv! Under den senaste månaden har jag genomfört en
 
 ---
 
-##  Nyckelinsikter från projektet
+##  Takeaways från projektet
 * **Defense in Depth:** Säkerhet handlar inte om en enskild inställning, utan om lager-på-lager-skydd (NSG + Firewall + Private Link).
 * **Identity is the Perimeter:** Genom att använda Key Vault och Managed Identities kan vi helt eliminera risken med hårdkodade lösenord och läckta hemligheter.
 * **Nätverksisolering:** Att flytta resurser från det publika internet till privata endpoints via Private Link är det enskilt mest effektiva sättet att minska attackytan.
